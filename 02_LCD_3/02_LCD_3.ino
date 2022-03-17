@@ -44,5 +44,8 @@ void loop() {
   lcd.print("DIS:");
   lcd.setCursor(5, 0);
   lcd.print(distance);
+
+  lcd.setCursor(9, 0);
+  lcd.print("cm.");
   delay(10);
 }
