@@ -51,7 +51,7 @@ void loop()
 {
   lightRead = analogRead(A0);
 
-  if (lightRead < 365)
+  if (lightRead < 70)
   {
     spd = 0;
   }
